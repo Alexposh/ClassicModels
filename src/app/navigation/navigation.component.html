@@ -1,0 +1,13 @@
+<p>navigation works!</p>
+<li *ngFor="let prodLine of productLines">{{ prodLine.productline }}
+    <a [routerLink]="['/products', prodLine.productline]">View</a>
+</li>
+
+
+<li>Sign In</li>
+<li>Sign Up</li>
+<li>Shopping Cart</li>
+
+<li>My Account</li>
+<li>Sign Out</li>
+<li>My Cart</li>
